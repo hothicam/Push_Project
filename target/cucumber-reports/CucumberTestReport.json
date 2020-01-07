@@ -1,0 +1,71 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Login banking website",
+        "description": "",
+        "id": "login-banking-page;login-banking-website",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8126041300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Open website http://www.way2automation.com/angularjs-protractor/banking/#/login",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://www.way2automation.com/angularjs-protractor/banking/#/login",
+                  "offset": 13
+                }
+              ],
+              "location": "loginTest.Open_banking_website(String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 11,
+        "name": "Login banking website",
+        "description": "",
+        "id": "login-banking-page;login-banking-website;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6037193400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Open website http://www.way2automation.com/angularjs-protractor/banking/#/login",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://www.way2automation.com/angularjs-protractor/banking/#/login",
+                  "offset": 13
+                }
+              ],
+              "location": "loginTest.Open_banking_website(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          }
+        ]
+      }
+    ],
+    "name": "Login banking page",
+    "description": "",
+    "id": "login-banking-page",
+    "keyword": "Feature",
+    "uri": "src/main/java/features/login.feature"
+  }
+]
